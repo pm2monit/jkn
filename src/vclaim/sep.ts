@@ -149,6 +149,7 @@ export class SEP extends VClaimBaseApi {
 				tglSep: string;
 			};
 		}>({
+			/** SEP 1.1 sudah tidak dilayani sejak maret 2023, saat ini sudah menjadi SEP 2.0 */
 			path: `/SEP/1.1/insert`,
 			method: 'POST',
 			data: { request: { t_sep: data } }
